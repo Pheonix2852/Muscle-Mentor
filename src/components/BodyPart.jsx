@@ -1,3 +1,4 @@
+import { Stack, Typography } from "@mui/material";
 import allIcon from "../assets/icons/all.png";
 import backIcon from "../assets/icons/back.png";
 import cardioIcon from "../assets/icons/cardio.png";
