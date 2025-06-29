@@ -3,17 +3,17 @@ import { Stack, Typography } from "@mui/material";
 import Icon from "../../assets/icons/gym.png";
 
 const bodyPartImages = {
-  all: "../../assets/icons/all.png",
-  back: "../../assets/icons/back.png",
-  cardio: "../../assets/icons/cardio.png",
-  chest: "../../assets/icons/chest.png",
-  "lower arms": "../../assets/icons/lower_arms.png",
-  "lower legs": "../../assets/icons/lower_legs.png",
-  neck: "../../assets/icons/neck.png",
-  shoulders: "../../assets/icons/shoulder.png",
-  "upper arms": "../../assets/icons/upper_arms.png",
-  "upper legs": "../../assets/icons/upper_legs.png",
-  waist: "../../assets/icons/waist.png",
+  all: "../assets/icons/all.png",
+  back: "../assets/icons/back.png",
+  cardio: "../assets/icons/cardio.png",
+  chest: "../assets/icons/chest.png",
+  "lower arms": "../assets/icons/lower_arms.png",
+  "lower legs": "../assets/icons/lower_legs.png",
+  neck: "../assets/icons/neck.png",
+  shoulders: "../assets/icons/shoulder.png",
+  "upper arms": "../assets/icons/upper_arms.png",
+  "upper legs": "../assets/icons/upper_legs.png",
+  waist: "../assets/icons/waist.png",
 };
 
 const BodyPart = ({ item, bodyPart, setBodyPart }) => {
