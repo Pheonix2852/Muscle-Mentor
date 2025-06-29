@@ -1,19 +1,27 @@
-import React from "react";
-import { Stack, Typography } from "@mui/material";
-import Icon from "../../assets/icons/gym.png";
+import allIcon from "../assets/icons/all.png";
+import backIcon from "../assets/icons/back.png";
+import cardioIcon from "../assets/icons/cardio.png";
+import chestIcon from "../assets/icons/chest.png";
+import lowerArmsIcon from "../assets/icons/lower_arms.png";
+import lowerLegsIcon from "../assets/icons/lower_legs.png";
+import neckIcon from "../assets/icons/neck.png";
+import shouldersIcon from "../assets/icons/shoulder.png";
+import upperArmsIcon from "../assets/icons/upper_arms.png";
+import upperLegsIcon from "../assets/icons/upper_legs.png";
+import waistIcon from "../assets/icons/waist.png";
 
 const bodyPartImages = {
-  all: "../assets/icons/all.png",
-  back: "../assets/icons/back.png",
-  cardio: "../assets/icons/cardio.png",
-  chest: "../assets/icons/chest.png",
-  "lower arms": "../assets/icons/lower_arms.png",
-  "lower legs": "../assets/icons/lower_legs.png",
-  neck: "../assets/icons/neck.png",
-  shoulders: "../assets/icons/shoulder.png",
-  "upper arms": "../assets/icons/upper_arms.png",
-  "upper legs": "../assets/icons/upper_legs.png",
-  waist: "../assets/icons/waist.png",
+  all: allIcon,
+  back: backIcon,
+  cardio: cardioIcon,
+  chest: chestIcon,
+  "lower arms": lowerArmsIcon,
+  "lower legs": lowerLegsIcon,
+  neck: neckIcon,
+  shoulders: shouldersIcon,
+  "upper arms": upperArmsIcon,
+  "upper legs": upperLegsIcon,
+  waist: waistIcon,
 };
 
 const BodyPart = ({ item, bodyPart, setBodyPart }) => {
